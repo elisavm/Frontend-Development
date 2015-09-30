@@ -139,10 +139,14 @@ span{
     padding-top: 2em;
     margin-top: auto;
 
+
 }
 
 
-
+.container {
+      display: -webkit-flex;
+      display: flex;
+}
 
 #contact {
   -webkit-flex: initial;
