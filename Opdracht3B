@@ -1,0 +1,171 @@
+body{
+
+    background-color: #FFCCFF;
+    font-family: serif;
+    padding-left: 5em;
+    padding-right: 20em;
+}
+
+
+h1 {
+    background-color: #CCCCFF;
+    border: 1px solid black;
+    border-radius: 50% / 5px 20px 5px;
+    color: #202020;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 8px #66FFCC;
+}
+
+p{
+    font-size: 1em;
+    color: #202020;
+
+}
+
+nav {
+    height: 35px;
+    font-size: 1.2em;
+    background-color: #CCFFFF;
+    padding: .3em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 10px 10px 5px #FFFFFF;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 0.5em;
+    vertical-align:middle;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1em 1em 1em 1em;
+    vertical-align: middle;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+article{
+    background-color: #FFFFCC;
+    padding: 20px;
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    margin: 20px;
+    border-radius: 50px 0 0 50px;
+    box-shadow: 10px 10px 5px #99FFFF;
+}
+
+.imageo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+.imageo:hover{
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#sitemap {
+    display: block;
+    padding-top: 50px;
+    position: absolute;
+    top: -8px;
+    right: 20px;
+}
+
+
+#formulier{
+width:40em;
+
+}
+
+#formulier fieldset{
+    display: flex;
+    padding: 1em;
+    background: : #9cc;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+#formulier .geschikt{
+    width: 9em;
+margin-top: 3em;
+}
+
+#formulier legend{
+    width: 27em;
+    padding-left: 1em;
+    line-height: 3em;
+    border-bottom: .3em solid #fff;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: #099;
+}
+
+#formulier label{
+    display: inline-block;
+    width: 20em;
+
+}
+
+#formulier textarea{
+    width: 40em;
+    height: 20em;
+}
+
+span{
+    color: #779;
+    padding-right: 2em;
+    padding-top: 2em;
+    margin-top: auto;
+
+}
+
+
+
+
+#contact {
+  -webkit-flex: initial;
+  flex: initial;
+  width: 200px;
+  min-width: 100px;
+}
+
+#search {
+ -webkit-flex: none;
+ flex: none;
+ width: 200px;
+}
+
+#about {
+ -webkit-flex: 1;
+  flex: 1;
+}
+
+/* Media queries*/
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+
