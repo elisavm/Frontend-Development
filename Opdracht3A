@@ -132,6 +132,25 @@ article{
           flex: 1;
 }
 
+/*
+#main {
+    display: flex; }
+
+#main > article
+    { order: 2;
+        min-width: 12em;
+        flex:1; }
+
+#main > nav {
+    order: 1;
+    width: 200px; }
+
+#main > aside {
+    order: 3;
+    width: 200px; }
+*/
+
+
 /* Media queries*/
 
 @media screen and (max-width: 480px) {
@@ -139,3 +158,8 @@ article{
         background-color: lightgreen;
     }
 
+    nav > ul {
+      display: flex;
+      flex-flow: column;
+}
+}
