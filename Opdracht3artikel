@@ -16,8 +16,9 @@ h1 {
     font-size: 3em;
     text-shadow: 2px 2px 8px #66FFCC;
 }
+
 h2 {
-color: #202020;
+    color: #202020;
     text-shadow: 2px 2px 8px #66FFCC;
     text-align: center;
 }
@@ -67,6 +68,7 @@ nav a {
 
 nav a:hover {
     background-color: white;
+    transition: 2s;
 }
 
 article{
@@ -111,7 +113,7 @@ article{
 
 .container {
       display: -webkit-flex;
-  display: flex;
+      display: flex;
 }
 
 #contact {
@@ -153,13 +155,37 @@ article{
 
 /* Media queries*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
     body {
-        background-color: lightgreen;
+        background-color: #FFFFCC;
+        padding: 10px;
+        border-color: black;
+        border-width: 1px;
+        border-style: dashed;
+        margin: 50px;
+        border-radius: 50px 0 0 50px;
+        box-shadow: 10px 10px 5px #99FFFF;
     }
 
     nav > ul {
       display: flex;
       flex-flow: column;
+        padding: 1em;
+    }
+
+    #sitemap{
+    position: relative;
+    }
+
+
 }
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+    body {
+        background-color: purple;
+    }
+
+    div > h1 + p {
+        color: white;
+    }
 }
