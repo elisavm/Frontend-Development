@@ -61,3 +61,23 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+
+
+//    Veranderen afbeelding
+
+
+
+
+
+function changeImage() {
+    var image = document.getElementById('code');
+    if (image.src.match("handje")) {
+        image.src = "img/fed_code.png";
+    } else {
+        image.src = "img/fed_handje.png";
+    }
+}
+
+
+
+
